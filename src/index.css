@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    @apply bg-white text-[#1d1d1f];
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-[#1d1d1f] opacity-80 hover:opacity-100 transition-opacity;
+  }
+
+  .hero-button {
+    @apply inline-flex items-center justify-center px-7 py-3 text-sm font-medium rounded-full 
+           transition-all duration-300 transform hover:scale-105;
+  }
+
+  .hero-button-primary {
+    @apply bg-[#0071e3] text-white hover:bg-[#0077ed];
+  }
+
+  .hero-button-secondary {
+    @apply bg-[#1d1d1f] text-white hover:bg-[#2d2d2f];
+  }
+
+  .section-title {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#1d1d1f] text-center;
+  }
+
+  .section-subtitle {
+    @apply text-xl sm:text-2xl text-[#86868b] text-center mt-4 max-w-3xl mx-auto;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
