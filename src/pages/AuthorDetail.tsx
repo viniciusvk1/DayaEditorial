@@ -5,10 +5,10 @@ import { BookOpen } from 'lucide-react';
 const authorData = {
   1: {
     name: 'Amauri Menezes Filho',
-    photo: '',
+    photo: '/src/assets/authors/Amaury/amaury.jpg',
     bio: 'Punk, dissidente; trabalha como professor, artista e marketing. Nasceu em 17/08/1987 na periferia da zona leste de São Paulo. Formação acadêmica como Tradutor e Intérprete da Língua Inglesa. Descobriu nas palavras a forma de ganhar a vida. Agitador cultural, participa intensamente de eventos e discussões de caráter político e social.',
     books: [
-      { title: 'Iracemeando', cover: '../dist/assets/Amauri Menezes Filho/iracemeando_g.jpg' },
+      { title: 'Iracemeando', cover: '/src/assets/authors/Amaury/iracemeando_g.jpg' },
     ],
   },
   2: {
@@ -776,7 +776,6 @@ const AuthorDetail = () => {
                   </h3>
                 </div>
                 <p className="text-[#86868b]">
-                  {book.description || 'Descrição não disponível.'}
                 </p>
               </div>
             </div>
