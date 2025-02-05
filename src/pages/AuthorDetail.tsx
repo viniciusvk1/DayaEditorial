@@ -701,7 +701,7 @@ const authorData = {
   78: {
     name: 'Yvone Russeau',
     photo: '',
-    bio: 'Nascida em Brotas/SP, Yvone Rousseau mudou-se com a família para a capital paulista aos cinco anos de idade e voltou a viver, décadas mais tarde, em sua cidade natal. Faz pinturas em óleo (para distração apenas) e cursou dois anos de francês pela Aliança Francesa. Ganhou prêmio por um conto pela Revista Cláudia — Menção Honrosa por dois trabalhos apresentados no Concurso Mobral de Literatura Crônicas e Contos, com as obras “Crônicas de minha cidade natal — Brotas” e “A dura realidade”. Participou da antologia de Contos Paixões e Vícios, da Editora Soma com a obra ‘‘O ferro-velho’’, e da antologia de Contos da Editora Casa do Novo Autor, com a obra “Chronique d'Amor”.',
+    bio: 'Nascida em Brotas/SP, Yvone Rousseau mudou-se com a família para a capital paulista aos cinco anos de idade e voltou a viver, décadas mais tarde, em sua cidade natal. Faz pinturas em óleo (para distração apenas) e cursou dois anos de francês pela Aliança Francesa. Ganhou prêmio por um conto pela Revista Cláudia — Menção Honrosa por dois trabalhos apresentados no Concurso Mobral de Literatura Crônicas e Contos, com as obras “Crônicas de minha cidade natal — Brotas” e “A dura realidade”. Participou da antologia de Contos Paixões e Vícios, da Editora Soma com a obra ‘‘O ferro-velho’’, e da antologia de Contos da Editora Casa do Novo Autor, com a obra Chronique dAmor.',
     books: [
       { title: 'Memórias de minha cidade natal - Brotas', cover: '' },
     ],
