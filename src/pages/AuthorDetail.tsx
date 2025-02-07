@@ -87,9 +87,9 @@ const authorData = {
     bio: 'Dilo Mestrinho Guasque nasceu em Manaus – AM, no dia 8 de janeiro de 1932. Antes de completar 1 ano de idade, sua família mudou-se para o Rio de Janeiro,onde Dilo se formou em Administração de Empresas, constituiu família e viveu até se aposentar, em 1984. A partir de então, passou a morar na Ilha da Gipóia, em Angra dos Reis – RJ. Atualmente, vive no Rio de Janeiro. Formado também em Belas Artes, é escritor e artista plástico bastante premiado nas duas modalidades artísticas. É membro do Ateneu Angrense de Letras e Artes. Tem vários livros publicados.',
     books: [
       { title: 'De algumas coisas, um pouco', cover: '/src/assets/authors/Dilo p/de-algumas-coisas-g.jpg' },
-      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/' },
-      { title: 'Troços, troças & trompaços', cover: '/src/assets/authors/' },
-      { title: 'Estórias contadas e recontadas', cover: '/src/assets/authors/' },
+      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/Dilo p/revoada-IV_g.jpg' },
+      { title: 'Troços, troças & trompaços', cover: '/src/assets/authors/Dilo p/trocas-trocas_g.jpg' },
+      { title: 'Estórias contadas e recontadas', cover: '/src/assets/authors/Dilo p/estorias-contadas_g.jpg' },
     ],
   },
   11: {
@@ -97,7 +97,7 @@ const authorData = {
     photo: '/src/assets/authors/Dirce/dirce_pinho_p.jpg',
     bio: 'Nasceu em Monte Sião (MG) e mora em São Paulo desde 1970. Formada em Pedagogia pela PUC, trabalhou como professora primária durante 28 anos. Desde a adolescência desejava conhecer o Espiritismo, mas foi em 1974 que o conheceu e iniciou seu desenvolvimento mediúnico. Estudou a Doutrina Espírita nos centros espíritas Pascoal Trovelle e Obreiros da Eternidade, ambos na zona norte de SP. Trabalhou como Evangelizadora infanto-juvenil durante 18 anos. Como médium intuitiva psicografou inúmeras mensagens em poemas e prosas de diversos espíritos. Atualmente, frequenta a Sociedade de Estudos Espíritas 3 de Outubro, na Lapa, São Paulo.',
     books: [
-      { title: 'Gotas de Luz', cover: '/src/assets/authors/' },
+      { title: 'Gotas de Luz', cover: '/src/assets/authors/Dirce/gotas-g.jpg' },
     ],
   },
   12: {
@@ -105,10 +105,10 @@ const authorData = {
     photo: '/src/assets/authors/Edmur/edmur_lucca_p.jpg',
     bio: 'Edmur de Lucca nasceu no dia 19 de dezembro de 1956, em São Paulo. Originário de família católica, conheceu o espiritismo aos 15 anos, no Centro Espírita Casa da Beneficência, localizado no bairro Vila Matilde, zona leste de São Paulo. Ali iniciou seus estudos e permaneceu por cerca de trinta anos. Ao longo desse tempo, Edmur recebeu orientações do casal Vasco Pires de Freitas e Amélia Fialho de Freitas, dirigentes da instituição. Nessa ocasião, visitava semanalmente, junto aos demais trabalhadores da Casa, uma comunidade carente na Vila Nhocuné para levar orientação espiritual e ajuda material. Edmur continua estudando e trabalhando mediunicamente. Esse é o primeiro psicografado pelo Espírito Gerônimo da Paz, o qual somente se apresentou depois de terminada a escrita do livro.',
     books: [
-      { title: 'Amor e ambição', cover: '/src/assets/authors/' },
-      { title: 'Amor e caridade', cover: '/src/assets/authors/' },
-      { title: 'Escolhas e consequências', cover: '/src/assets/authors/' },
-      { title: 'Mãos que semeiam luz', cover: '/src/assets/authors/' },
+      { title: 'Amor e ambição', cover: '/src/assets/authors/Edmur/amor-e-ambicao-g.jpg' },
+      { title: 'Amor e caridade', cover: '/src/assets/authors/Edmur/amor e caridade_g.jpg' },
+      { title: 'Escolhas e consequências', cover: '/src/assets/authors/Edmur/escolhas-e-consequencias_g.jpg' },
+      { title: 'Mãos que semeiam luz', cover: '/src/assets/authors/Edmur/maos-luz_g.jpg' },
     ],
   },
   13: {
@@ -116,7 +116,7 @@ const authorData = {
     photo: '/src/assets/authors/elianacosta/eliana.png',
     bio: 'Nascida em Angra dos Reis/RJ, é professora formada pela Faculdade de Filosofia Ciências e Letras de Barra Mansa, licenciada em Ciências Biológicas e aposentada. Sua relação com a escrita veio da época da adolescência, pois gostava de escrever num caderno, como se fosse um diário, os segredos de menina, foi aí que tudo começou. Atualmente é membro da União Brasileira de Trovadores de Angra dos Reis.',
     books: [
-      { title: 'Sementes poéticas', cover: '/src/assets/authors/' },
+      { title: 'Sementes poéticas', cover: '/src/assets/authors/elianacosta/sementes_g.jpg' },
     ],
   },
   14: {
@@ -124,7 +124,7 @@ const authorData = {
     photo: '/src/assets/authors/Eliana/eliana.jpg',
     bio: 'Nasceu em São Paulo em 14/05/1963. Educadora, formada em Pedagogia com especialização em Psicopedagogia, Neuroaprendizagem e Psicanálise. Funcionária pública, exerceu importantes funções no Centro de Referência de Assistência Social e na Diretoria Regional de Educação, na zona leste da capital paulista. Aposentou-se em 2018, após 39 anos de serviços prestados. Espírita há 28 anos, dedica parte de seu tempo às tarefas doutrinárias. Atualmente reside em Praia Grande/SP.',
     books: [
-      { title: 'Iracemeando', cover: '/src/assets/authors/' },
+      { title: 'Iracemeando', cover: '/src/assets/authors/Eliana/iracemeando_g.jpg' },
     ],
   },
   15: {
@@ -132,10 +132,10 @@ const authorData = {
     photo: '/src/assets/authors/Eli/eli.jpg',
     bio: 'Elizette – ou Eli Gonçalves – é pedagoga, tendo atuado na área de Educação durante trinta anos. Ao se aposentar, dedicou-se à tecelagem, às artes plásticas e à literatura. Participou de mostras individuais e coletivas, com tapetes e quadros seus. É também reikiana e praticante de Yoga, tendo participado do Curso de Capacitação, durante dois anos – na FMU e na USP, com o professor Marcos Rojo, o que lhe confere o direito de lecionar a Yoga. Publicou dois livros de Literatura Infantil "Quem disse que Papai Noel não existe?" e "O papagaio e a sereiazinha" e dois livros de poesias: "Tramas poéticas" e "Explosão de emoções". Participou de várias antologias e é membro da UBT (União Brasileira de Trovadores). Tem uma força interior tal, que, por certo, não há de parar por aí! Tem ainda uma vida prolífica pela frente!',
     books: [
-      { title: 'Revoada de Sonhos I', cover: '/src/assets/authors/' },
-      { title: 'Revoada de Sonhos II', cover: '/src/assets/authors/' },
-      { title: 'Revoada de Sonhos III', cover: '/src/assets/authors/' },
-      { title: 'O Papagaio e a Sereiazinha', cover: '/src/assets/authors/' },
+      { title: 'Revoada de Sonhos I', cover: '/src/assets/authors/Eli/revoada-vol-i-g.jpg' },
+      { title: 'Revoada de Sonhos II', cover: '/src/assets/authors/Eli/revoada-vol-ii-g.jpg' },
+      { title: 'Revoada de Sonhos III', cover: '/src/assets/authors/Eli/revoada-de-sonhos3-g.jpg' },
+      { title: 'O Papagaio e a Sereiazinha', cover: '/src/assets/authors/Eli/livro-papagaio-g.png' },
     ],
   },
   16: {
@@ -143,8 +143,8 @@ const authorData = {
     photo: '/src/assets/authors/Eliseu/eliseu.jpg',
     bio: 'Nasceu no dia 31 de janeiro de 1943, em Monte Sião – MG. Quando tinha cinco anos de idade, seus pais mudaram-se para Marumbi – PR. Começou a trabalhar na adolescência, exercendo várias atividades. Fez o Curso Ginasial em Londrina – PR. Construiu sólida carreira como bancário, formando-se em Administração de Empresas e exercendo cargos de diretoria, já na idade de São Paulo. Atualmente está aposentado, mas continua trabalhando como administrador de uma clínica médica na capital paulista.',
     books: [
-      { title: 'O jogo da vida!', cover: '/src/assets/authors/' },
-      { title: 'Santo e José Labegalini', cover: '/src/assets/authors/' },
+      { title: 'O jogo da vida!', cover: '/src/assets/authors/Eliseu/jogo-da-vida_g.jpg' },
+      { title: 'Santo e José Labegalini', cover: '/src/assets/authors/Eliseu/santo-e-jose_g.jpg' },
     ],
   },
   17: {
@@ -152,7 +152,7 @@ const authorData = {
     photo: '/src/assets/authors/Elizabeth/elizabeth.jpg',
     bio: 'Elizabeth Carolina Mathias de Araújo nasceu em Volta Redonda (RJ), no dia 13 de janeiro de 1961. É médica formada pela Escola de Ciências Médicas de Volta Redonda, com especialização em otorrinolaringologia pelo Instituto de Assistência aos Servidores do Estado do Rio de Janeiro (IASERJ). O interesse pela leitura vem da infância, despertado pelos gibis que seu amado pai sempre lhe ofertava e dos livros de poesia que ganhava de sua querida mãe. Na escola, era sempre premiada em suas redações. Lançou a cartilha infantil O Carnaval das Letrinhas, devido ao seu grande amor pelo público infantil. Tem quatro livros infantis escritos, ainda não publicados. A poesia é a forma como encara os desafios diários da vida.',
     books: [
-      { title: 'Palavras que tecem poemas', cover: '/src/assets/authors/' },
+      { title: 'Palavras que tecem poemas', cover: '/src/assets/authors/Elizabeth/palavras-que-tecem-g.jpg' },
     ],
   },
   18: {
@@ -160,29 +160,29 @@ const authorData = {
     photo: '/src/assets/authors/Elzafernandes/elza.jpg',
     bio: 'Elza Fernandes Pereira, maranhense, Assistente Social, Profa., espírita, Palestrante nas Casas Espíritas – "Centro Espírita Paulo e Estevão", e "Casa de Francisco de Assis" – em São Paulo – SP – Esperantista – Profa. de Esperanto – Lingvo Internacia. Detentora de vasta obra literária, com 19 livros publicados e doze inéditos. Sob forma de quadras, sextilhas, sonetos, acrósticos e notáveis prosas, fala da grandiosidade do viver, do valor intrínseco de cada criatura, da necessidade do progresso moral de cada um e, essencialmente, fala de Deus, a quem devemos pedir, louvar e agradecer eternamente! Escreveu e publicou obras mediúnicas com páginas inspiradas por diversos Espíritos, entre os quais Eurípedes Barsanulfo e Thomaz Antônio Gonzaga. É octogenária, sentindo amor e gratidão pela longevidade dos seus dias e por sua nobre tarefa de levar ao público brasileiro sua maneira de pensar, sentir e agir, num expressar ameno, singular e, sem dúvida, valioso.',
     books: [
-      { title: 'Reza, minha gente, reza!...', cover: '/src/assets/authors/' },
-      { title: 'Revoada de Sonhos III', cover: '/src/assets/authors/' },
-      { title: 'Nos cristalinos braços de Jesus', cover: '/src/assets/authors/' },
-      { title: 'Parnaso de amor', cover: '/src/assets/authors/' },
-      { title: 'Parnaso de amor 2', cover: '/src/assets/authors/' },
-      { title: 'O Cântico do "Pedir, Louvar e Agradecer"', cover: '/src/assets/authors/' },
-      { title: 'Reflexos de amor', cover: '/src/assets/authors/' },
-      { title: 'Porque amo e sou amada', cover: '/src/assets/authors/' },
-      { title: 'Acrósticos da filha de Deus', cover: '/src/assets/authors/' },
-      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/' },
-      { title: 'Vibrantes outros contos', cover: '/src/assets/authors/' },
-      { title: 'Confiantes preces', cover: '/src/assets/authors/' },
-      { title: 'Mãe, pérola de amor', cover: '/src/assets/authors/' },
-      { title: 'Deus, somente Deus', cover: '/src/assets/authors/' },
-      { title: 'Ave, amor', cover: '/src/assets/authors/' },
-      { title: 'Amorosos contos', cover: '/src/assets/authors/' },
-      { title: 'Confiantes preces', cover: '/src/assets/authors/' },
-      { title: 'Amor, muito amor!', cover: '/src/assets/authors/' },
-      { title: 'Sob a luz da oração', cover: '/src/assets/authors/' },
-      { title: 'Sob o brilho do amor', cover: '/src/assets/authors/' },
-      { title: 'Sob o fulgor de outras amorosas realidades', cover: '/src/assets/authors/' },
-      { title: 'Sob a bênção da oração', cover: '/src/assets/authors/' },
-      { title: 'Pedir, louvar e agradecer', cover: '/src/assets/authors/' },
+      { title: 'Reza, minha gente, reza!...', cover: '/src/assets/authors/Elzafernandes/reza.jpg' },
+      { title: 'Revoada de Sonhos III', cover: '/src/assets/authors/Elzafernandes/revoada-de-sonhos3-g.jpg' },
+      { title: 'Nos cristalinos braços de Jesus', cover: '/src/assets/authors/Elzafernandes/nos-cristalinos-g.jpg' },
+      { title: 'Parnaso de amor', cover: '/src/assets/authors/Elzafernandes/parnaso-de-amor-g.jpg' },
+      { title: 'Parnaso de amor 2', cover: '/src/assets/authors/Elzafernandes/parnasoII-g.jpg' },
+      { title: 'O Cântico do "Pedir, Louvar e Agradecer"', cover: '/src/assets/authors/Elzafernandes/pedir-louvar_g.jpg' },
+      { title: 'Reflexos de amor', cover: '/src/assets/authors/Elzafernandes/reflexos-g.jpg' },
+      { title: 'Porque amo e sou amada', cover: '/src/assets/authors/Elzafernandes/porque-amo_g.jpg' },
+      { title: 'Acrósticos da filha de Deus', cover: '/src/assets/authors/Elzafernandes/acrosticos_g.jpg' },
+      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/Elzafernandes/revoada-IV_g.jpg' },
+      { title: 'Vibrantes outros contos', cover: '/src/assets/authors/Elzafernandes/vibrantes_g.jpg' },
+      { title: 'Confiantes preces', cover: '/src/assets/authors/Elzafernandes/confiantes_g.jpg' },
+      { title: 'Mãe, pérola de amor', cover: '/src/assets/authors/Elzafernandes/mae-perola_g.jpg' },
+      { title: 'Deus, somente Deus', cover: '/src/assets/authors/Elzafernandes/deus-somente_g.jpg' },
+      { title: 'Ave, amor', cover: '/src/assets/authors/Elzafernandes/ave amor_g.jpg' },
+      { title: 'Amorosos contos', cover: '/src/assets/authors/Elzafernandes/amorosos-contos_g.jpg' },
+      { title: 'Confiantes preces', cover: '/src/assets/authors/Elzafernandes/confiantes_g.jpg' },
+      { title: 'Amor, muito amor!', cover: '/src/assets/authors/Elzafernandes/amor-muito-amor_g.jpg' },
+      { title: 'Sob a luz da oração', cover: '/src/assets/authors/Elzafernandes/sob-a-luz_g.jpg' },
+      { title: 'Sob o brilho do amor', cover: '/src/assets/authors/Elzafernandes/sob-o-brilho-do-amor_g.jpg' },
+      { title: 'Sob o fulgor de outras amorosas realidades', cover: '/src/assets/authors/Elzafernandes/sob-o-fulgor_g.jpg' },
+      { title: 'Sob a bênção da oração', cover: '/src/assets/authors/Elzafernandes/sob-a-bencao_g.jpg' },
+      { title: 'Pedir, louvar e agradecer', cover: '/src/assets/authors/Elzafernandes/pedir-louvar_g.jpg' },
     ],
   },
   19: {
@@ -190,7 +190,7 @@ const authorData = {
     photo: '/src/assets/authors/Erico/erico.jpg',
     bio: 'Angrense de nascimento, foi diplomado em Medicina, no ano de 1953, pela Faculdade Fluminense de Medicina. É Sócio Titular (fundador) do Ateneu Angrense de Letras e Artes (AALA), agraciado com a Comenda "Colar de Cunhambebe", do AALA e presidente do AALA no período de setembro de 2009 a fevereiro de 2013. Sócio Fundador da Associação Médica de Angra dos Reis, cuja presidência exerceu por dois mandatos. É Sócio da Delegacia da UBT de Angra dos Reis/RJ.',
     books: [
-      { title: 'Sementes poéticas', cover: '/src/assets/authors/' },
+      { title: 'Sementes poéticas', cover: '/src/assets/authors/Erico/sementes_g.jpg' },
     ],
   },
   20: {
@@ -198,7 +198,7 @@ const authorData = {
     photo: '/src/assets/authors/etnalacerda/etna.jpg',
     bio: 'É professora e há alguns anos se descobriu escrevendo história para crianças e adolescentes. Essa descoberta lhe proporcionou momentos de muita alegria e realização. Seu objetivo é deixar uma marca de paz e de amor nos corações juvenis. Tem seis livros editados. São eles: Os Dois Franciscos (Editora FEB); Mel-mel e Sem-mel (Editora IDE; Os Duendes e um Natal Diferente (Editora IDE); Zulu, o Peixinho Orgulhoso (Editora CELD); O Girassol que não acompanhava o Sol (Editora Boa Nova).',
     books: [
-      { title: 'A Fada do conto', cover: '/src/assets/authors/' },
+      { title: 'A Fada do conto', cover: '/src/assets/authors/etnalacerda/fada-livro.png' },
     ],
   },
   21: {
@@ -206,7 +206,7 @@ const authorData = {
     photo: '/src/assets/authors/Fabiano/Fabiano_p.jpg',
     bio: 'Nasceu em 17 de junho de 1983, em São Bernardo do Campo/SP. É casado com Suelen V C Mendes e tem dois Filhos: Henrique e Mayara. Filho de pais separados, ele e seus seis irmãos foram criados pela mãe, Dona Gil. Fabiano sempre foi sonhador e idealista. Aos sete anos, já trabalhava como vendedor de sorvete. Ao longo de sua história, cometeu equívocos, como todo ser humano e, aos trinta anos, decidiu engajar em uma mudança radical, para se tornar um homem melhor. Assim, desenvolveu "O método eu", livro que é uma verdadeira ferramenta de perseverança e sucesso existencial.',
     books: [
-      { title: 'O método eu', cover: '/src/assets/authors/' },
+      { title: 'O método eu', cover: '/src/assets/authors/Fabiano/metodo-g.jpg' },
     ],
   },
   22: {
@@ -214,7 +214,7 @@ const authorData = {
     photo: '/src/assets/authors/Fabiocirello/fabio.jpg',
     bio: 'Professor e locutor, Fábio Cirello tornou-se o orador de seu grupo que semanalmente pratica o Evangelho no Lar. Ao perceber a dificuldade de entendimento dos que ouviam, passou a reescrever os capítulos de O Evangelho segundo o Espiritismo com palavras e frases mais simples de ler e entender. Assim, da prática semanal, nasceu "Simplificando Kardec para o Evangelho no Lar", para que as barreiras da linguagem não impeçam o bom espírita de aprender e compartilhar os ensinamentos de Jesus Cristo ali narrados.',
     books: [
-      { title: 'Simplificando Kardec para o Evangelho no Lar', cover: '/src/assets/authors/' },
+      { title: 'Simplificando Kardec para o Evangelho no Lar', cover: '/src/assets/authors/Fabiocirello/simplificando-g.jpg' },
     ],
   },
   23: {
@@ -222,7 +222,7 @@ const authorData = {
     photo: '/src/assets/authors/FAtima/fatima.jpg',
     bio: 'Nascida em São Paulo, é moradora do bairro de Itaquera, na zona leste. Sempre gostou de atividades artesanais como pintura, desenho, bordados, modelagens, origamis, assim como o cultivo de plantas em geral. É desse modo, diz ela, que recarrega as energias de que necessita para as pequenas lutas diárias.',
     books: [
-      { title: 'Convite para colorir', cover: '/src/assets/authors/' },
+      { title: 'Convite para colorir', cover: '/src/assets/authors/FAtima/convite-para-colorir_g.jpg' },
     ],
   },
   24: {
@@ -230,7 +230,7 @@ const authorData = {
     photo: '/src/assets/authors/Francisca/francisca.jpg',
     bio: 'Nasceu em Crateús-CE, em 14 de agosto de 1971, é formada em Pedagogia, especialista no Ensino da Língua Portuguesa, especialista em Atendimento Educacional Especializado, estudante de Psicologia, escritora, poetisa, idealizadora (em parceria) do grupo de escritores Os Tramaturgos e do Canal Poesia que Edifica (no YouTube), professora da sala do AEE em uma escola municipal de Fortaleza-CE e mãe de cinco gatos (Lulu, Nina, Tom, Sofia e Miguel). Obras publicadas: - A Cidade dos Animais (conto infantil), 1a edição – Editoras Ludis e Portfólio. 2015. - Assim como a Fênix (romance) - Editora IDE. 2018. - Fragmentos – Vidas, Amores e Verdades (poemas e crônicas) – Editora Travassos. 2018. - Os Tramaturgos – Poemas, Contos e Crônicas (coletânea) – Editora Travassos. 2020.',
     books: [
-      { title: 'As aventuras de Zuíla', cover: '/src/assets/authors/' },
+      { title: 'As aventuras de Zuíla', cover: '/src/assets/authors/Francisca/aventuras de zuila_g.jpg' },
     ],
   },
   25: {
@@ -238,7 +238,7 @@ const authorData = {
     photo: '/src/assets/authors/gioconda/gioconda_p.jpg',
     bio: 'Poetisa, escritora e declamadora, Gioconda Labecca nasceu em Campanha/MG e atualmente vive em São Paulo. Possui dezenas de obras publicadas, é membro de várias instituições literárias e foi agraciada com importantes distinções de mérito cultural. Suas obras foram elogiadas por grandes vultos da literatura brasileira como Manuel Bandeira e Agripino Grieco. Gioconda foi Presidente da Academia de Letras da Grande São Paulo no período de 2008 a 2014.',
     books: [
-      { title: 'Entardecer', cover: '/src/assets/authors/' },
+      { title: 'Entardecer', cover: '/src/assets/authors/gioconda/entardecer-g.jpg' },
     ],
   },
   26: {
@@ -246,7 +246,7 @@ const authorData = {
     photo: '/src/assets/authors/Guerino/Guerino_p.jpg',
     bio: 'Neto de imigrante italiano, é casado e tem quatro filhos. Nasceu na cidade de Rafard (antigo distrito do município de Capivari), no estado de São Paulo, no dia 5 de setembro de 1934. Em 1949, já com quinze anos, mudou-se com a família para São Paulo. Trabalhou como aprendiz de encadernador, tornando-se profissional na arte de encadernar; fez o curso técnico de rádio. Depois fez o curso de televisão. Trabalhou como técnico de rádio e TV, durante quatro anos, na Telefunken do Brasil, em São Paulo. Fez o curso de eletrotécnico. Cursou durante seis meses o curso de relojoeiro. Em 1968, montou seu próprio negócio no bairro da Santa Efigênia, de compra e venda de eletroeletrônicos, trabalhando neste comércio até o ano 2.000. Depois, deixando o comércio para os filhos tomarem conta , passou a se dedicar a um produto por ele inventado: o travesseiro anti-ronco, MD. 2000, que está no mercado até os dias de hoje.',
     books: [
-      { title: 'Conheça a verdade', cover: '/src/assets/authors/' },
+      { title: 'Conheça a verdade', cover: '/src/assets/authors/Guerino/conheca-g.jpg' },
     ],
   },
   27: {
@@ -254,7 +254,7 @@ const authorData = {
     photo: '/src/assets/authors/Jesse/Jesse.jpg',
     bio: 'Nascido em Ibiraçu/ES, morou mais de 50 anos na Cidade do Rio de Janeiro e reside atualmente em Angra dos Reis. É formado em Comunicação Social pela UFRJ e trabalhou na Rádio JB AM, Jornal do Brasil e jornal O DIA, além de Assessoria de Imprensa. Sócio fundador do GLAN – Grêmio Literário de Autores Novos, em Volta Redonda. Membro da União Brasileira de Trovadores – Seção do Rio de Janeiro, da Delegacia da UBT em Angra dos Reis e Sócio Efetivo do Ateneu Angrense de Letras.',
     books: [
-      { title: 'Sementes poéticas', cover: '/src/assets/authors/' },
+      { title: 'Sementes poéticas', cover: '/src/assets/authors/Jesse/sementes_g.jpg' },
     ],
   },
   28: {
@@ -262,7 +262,7 @@ const authorData = {
     photo: '/src/assets/authors/Joaogalvani/joao-galvani_p.jpg',
     bio: 'Escritor, músico e artista cênico, João Galvani nasceu em Marília/SP. Aos 20 anos de idade, mudou-se para o Rio de Janeiro. Fez Escola de Arte Dramática, Curso de Edição e Editoração Independente, e participou de algumas antologias de poesias. Tendo iniciado suas atividades literárias aos quinze anos de idade, é autor de três romances, alguns contos, peças de teatro e diversas poesias. Seus escritos permanecem inéditos, aguardando a oportunidade de serem publicados. Colaborou com uma poesia no livro Pai um amigo, um Herói, da Lítteris Editora, no ano de 2001. No segmento musical, Galvani é violonista e já fez parceria em dupla sertaneja. Como artista cênico, durante duas décadas atuou nos palcos de teatro. É casado, tem duas filhas (Suzy Mara e Kátia Cilene) e dois netos (Vinícius e Maria Eduarda).',
     books: [
-      { title: 'Revoada de Sonhos I', cover: '/src/assets/authors/' },
+      { title: 'Revoada de Sonhos I', cover: '/src/assets/authors/Joaogalvani/revoada-vol-I-g.jpg' },
     ],
   },
   29: {
@@ -270,8 +270,8 @@ const authorData = {
     photo: '/src/assets/authors/joaomainsel/joao-mainsel_p.jpg',
     bio: 'É casado e tem dois filhos. Nasceu em 1976, em Malange-Angola, e cresceu no Huambo, onde passou os primeiros dezesseis anos de sua vida. Licenciou-se em Ciências Sociais, na especialidade de Ciência Política e Administrativa, pela Universidade Aberta de Lisboa; pós-graduou-se em Administração com ênfase em Gestão pela Fundação Getúlio Vargas no Brasil; e fez o seu Mestrado e Doutorado em Administração de Empresas pela Florida Christian University, nos Estados Unidos da América. Nos últimos quinze anos, tem atuado como empresário e empreendedor e dedica-se à pesquisa aplicada, atividade que tem conciliado com o ramo empresarial.',
     books: [
-      { title: 'A Travessia', cover: '/src/assets/authors/' },
-      { title: 'A Travessia – livro 2', cover: '/src/assets/authors/' },
+      { title: 'A Travessia', cover: '/src/assets/authors/Joaomainsel/a-travessia-g.jpg' },
+      { title: 'A Travessia – livro 2', cover: '/src/assets/authors/Joaomainsel/travessia-2_g.jpg' },
     ],
   },
   30: {
@@ -279,7 +279,7 @@ const authorData = {
     photo: '/src/assets/authors/sem_foto.jpg',
     bio: 'Nasceu em São Caetano do Sul – SP, em 1977. Mudou-se definitivamente para Santa Rita de Caldas em 1982. Formou-se em Jornalismo pela Universidade de Pouso Alegre − MG, sendo pós-graduado pela Universidade Federal de Itajubá − MG. É um dos fundadores do Projeto Resgate. Atualmente exerce o cargo de Gestor Educacional do centro de ensino da Rede Nowtech.',
     books: [
-      { title: 'Santa Rita de Caldas', cover: '/src/assets/authors/' },
+      { title: 'Santa Rita de Caldas', cover: '/src/assets/authors/Joemircarvalho/santa-rita-g.jpg' },
     ],
   },
   31: {
@@ -287,9 +287,9 @@ const authorData = {
     photo: '/src/assets/authors/Jonasbarros/jonas-barros_p.jpg',
     bio: 'Nasceu em 30/12/1968, na cidade de São João/PE e ainda criança mudou-se com a família para São Paulo. A poesia e a música sempre fizeram parte da sua vida. Em 2006, lançou o seu primeiro livro de versos, intitulado Histórias de Vida. Jonas considera a escrita um hobby maravilhoso, que o conecta com a mais sensível das emoções: sentir a presença de Deus em suas inspirações. Algumas de suas poesias foram musicadas, dando mais vida às suas criações literárias. Este livro, tal como o primeiro, é um trabalho despretensioso, elaborado de maneira simples (como é o seu caráter e a sua vida), pois Jonas Barros anda por aí, distribuindo sorrisos e registrando em poesias a sua mais pura essência.',
     books: [
-      { title: 'Mistérios e segredos', cover: '/src/assets/authors/' },
-      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/' },
-      { title: 'Versos soltos', cover: '/src/assets/authors/' },
+      { title: 'Mistérios e segredos', cover: '/src/assets/authors/Jonasbarros/misterios-e-segredos-g.jpg' },
+      { title: 'Revoada de Sonhos IV', cover: '/src/assets/authors/Jonasbarros/revoada-IV_g.jpg' },
+      { title: 'Versos soltos', cover: '/src/assets/authors/Jonasbarros/versos soltos_g.jpg' },
     ],
   },
   32: {
@@ -297,7 +297,7 @@ const authorData = {
     photo: '/src/assets/authors/Jorge/Jorge.jpg',
     bio: 'Nasceu no dia 16 de janeiro de 1963 na cidade de São Paulo, capital. Casado com Ionara, é pai de cinco filhos: Jéssica, Jorge, Yuri, Raíssa e Rafael. Iniciou sua caminhada no espiritismo ainda jovem, mas só em idade madura sua sensibilidade mediúnica floresceu e, aos 54 anos, a espiritualidade se fez presente, quando psicografou este primeiro livro de forma totalmente inconsciente, levando três anos para concluir a obra. Já está nos planos de seus mentores um segundo livro para psicografar.',
     books: [
-      { title: 'O Início', cover: '/src/assets/authors/' },
+      { title: 'O Início', cover: '/src/assets/authors/Jorge/O_inicio_g.jpg' },
     ],
   },
   33: {
