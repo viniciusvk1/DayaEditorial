@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { BookOpen } from 'lucide-react';
 
 const authorData = {
   1: {
@@ -770,7 +769,7 @@ const AuthorDetail = () => {
               </div>
               <div className="p-8">
                 <div className="flex items-center mb-4">
-                  <BookOpen className="h-5 w-5 text-[#0071e3] mr-2" />
+                  
                   <h3 className="text-xl font-semibold text-[#1d1d1f]">
                     {book.title || 'Título não disponível'}
                   </h3>
