@@ -341,7 +341,7 @@ const authorData = {
       { title: 'Revoada de Sonhos III', cover: '/src/assets/authors/LaurianoSantos/revoada-de-sonhos3-g.jpg' },
       { title: 'Pense comigo sobre a Bíblia', cover: '/src/assets/authors/LaurianoSantos/pense-comigo-g.jpg' },
       { title: 'Recanto do poeta', cover: '/src/assets/authors/LaurianoSantos/recanto-do-poeta-g.jpg' },
-      { title: 'Noções evangélicas', cover: '/src/assets/authors/LaurianoSantos/nocões-evang-g.jpg' },
+      { title: 'Noções evangélicas', cover: '/src/assets/authors/LaurianoSantos/nocoes-evang-g.jpg' },
       { title: 'Jesus: messias ou Deus?', cover: '/src/assets/authors/LaurianoSantos/jesus-messias_g.jpg' },
       { title: 'Por quê?', cover: '/src/assets/authors/LaurianoSantos/por que_g.jpg' },
       { title: 'Indagações oportunas', cover: '/src/assets/authors/LaurianoSantos/indagacoes-oportunas_g.jpg' },
