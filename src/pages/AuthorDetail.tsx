@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { BookOpen } from 'lucide-react';
 
 const authorData = {
   1: {
@@ -713,7 +714,7 @@ const AuthorDetail = () => {
 
   if (!author) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center">
+      <div className="min-h-screen bg-white flex items-center justify-center p-4">
         <div className="text-center">
           <h2 className="text-2xl font-semibold text-[#1d1d1f]">Autor não encontrado</h2>
         </div>
@@ -722,24 +723,24 @@ const AuthorDetail = () => {
   }
 
   return (
-    <div className="bg-white pt-4 sm:pt-5">
-      {/* Informações do Autor */}
-      <div className="relative h-[85vh] flex flex-col items-center justify-center px-4">
+    <div className="bg-white pt-16 md:pt-20">
+      {/* Author Info */}
+      <div className="relative min-h-[60vh] md:min-h-[85vh] flex flex-col items-center justify-center px-4">
         <div className="max-w-[980px] w-full mx-auto relative z-10">
           <div className="bg-[#f5f5f7] rounded-3xl overflow-hidden shadow-lg fade-in">
-            <div className="md:flex">
-              <div className="md:flex-shrink-0">
-                <img
-                  className="h-96 w-full object-cover md:w-96"
-                  src={author.photo || 'https://via.placeholder.com/150'}
-                  alt={author.name}
-                />
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-1/2 lg:w-2/5">
+                <div className="relative pb-[100%] md:pb-0 md:h-full">
+                  <img
+                    className="absolute inset-0 w-full h-full object-cover md:relative"
+                    src={author.photo}
+                    alt={author.name}
+                  />
+                </div>
               </div>
-              <div className="p-12">
-                <h1 className="text-4xl font-semibold text-[#1d1d1f] mb-6">{author.name}</h1>
-                <p className="text-[#86868b] text-lg leading-relaxed">
-                  {author.bio || 'Biografia não disponível.'}
-                </p>
+              <div className="p-6 md:p-12 w-full md:w-1/2 lg:w-3/5">
+                <h1 className="text-2xl md:text-4xl font-semibold text-[#1d1d1f] mb-6">{author.name}</h1>
+                <p className="text-[#86868b] text-base md:text-lg leading-relaxed">{author.bio}</p>
               </div>
             </div>
           </div>
@@ -748,34 +749,32 @@ const AuthorDetail = () => {
           <img
             src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=2341&q=80"
             alt="Library"
-            className="w-full h-[40vh] object-cover object-center"
+            className="w-full h-[30vh] md:h-[40vh] object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-white via-white/50 to-transparent"></div>
         </div>
       </div>
 
-      {/* Seção de Livros */}
-      <div className="max-w-[980px] mx-auto px-4 py-20">
-        <h2 className="text-3xl font-semibold text-[#1d1d1f] mb-12 text-center">Obras Publicadas</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Books Section */}
+      <div className="max-w-[980px] mx-auto px-4 py-12 md:py-20">
+        <h2 className="text-2xl md:text-3xl font-semibold text-[#1d1d1f] mb-8 md:mb-12 text-center">
+          Obras Publicadas
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {author.books.map((book, index) => (
-            <div key={index} className="bg-[#f5f5f7] rounded-2xl overflow-hidden">
-              <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+            <div key={index} className="bg-[#f5f5f7] rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300">
+              <div className="relative pb-[133%] overflow-hidden">
                 <img
-                  src={book.cover || 'https://via.placeholder.com/300x400'}
-                  alt={book.title || 'Título não disponível'}
-                  className="w-full h-[32rem] object-cover"
+                  src={book.cover}
+                  alt={book.title}
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
-              <div className="p-8">
-                <div className="flex items-center mb-4">
-                  
-                  <h3 className="text-xl font-semibold text-[#1d1d1f]">
-                    {book.title || 'Título não disponível'}
-                  </h3>
+              <div className="p-6">
+                <div className="flex items-center">
+                  <BookOpen className="h-5 w-5 text-[#0071e3] mr-2 flex-shrink-0" />
+                  <h3 className="text-lg font-semibold text-[#1d1d1f] line-clamp-2">{book.title}</h3>
                 </div>
-                <p className="text-[#86868b]">
-                </p>
               </div>
             </div>
           ))}
@@ -783,6 +782,6 @@ const AuthorDetail = () => {
       </div>
     </div>
   );
-};
+}
 
 export default AuthorDetail;

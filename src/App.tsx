@@ -7,10 +7,12 @@ import About from './pages/About';
 import Authors from './pages/Authors';
 import Contact from './pages/Contact';
 import AuthorDetail from './pages/AuthorDetail';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">

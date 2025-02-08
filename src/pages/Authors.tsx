@@ -14,9 +14,9 @@ export const authors = [
   { id: 10, name: 'Dilo Guasque', photo: '/authors/Dilo p/dilo_p.jpg', genre: '', books: 4 },
   { id: 11, name: 'Dirce Biscuola de Pinho', photo: '/authors/Dirce/dirce_pinho_p.jpg', genre: '', books: 1 },
   { id: 12, name: 'Edmur De Lucca', photo: '/authors/Edmur/edmur_lucca_p.jpg', genre: '', books: 4 },
-  { id: 13, name: 'Eliana da Costa R Tosi', photo: '/authors/elianacosta/eliana.png', genre: '', books: 4 },
+  { id: 13, name: 'Eliana da Costa R Tosi', photo: '/authors/elianacosta/eliana.png', genre: '', books: 1 },
   { id: 14, name: 'Eliana Irena', photo: '/authors/Eliana/eliana.jpg', genre: '', books: 1 },
-  { id: 15, name: 'Eli Gonçalves', photo: '/authors/Eli/eli.jpg', genre: '', books: 1 },
+  { id: 15, name: 'Eli Gonçalves', photo: '/authors/Eli/eli.jpg', genre: '', books: 4 },
   { id: 16, name: 'Eliseu Labigalini', photo: '/authors/Eliseu/eliseu.jpg', genre: '', books: 2 },
   { id: 17, name: 'Elizabeth Carolina', photo: '/authors/Elizabeth/elizabeth.jpg', genre: '', books: 1 },
   { id: 18, name: 'Elza Fernandes', photo: '/authors/Elzafernandes/elza.jpg', genre: '', books: 22 },
@@ -84,12 +84,14 @@ export const authors = [
 
 const Authors = () => {
   return (
-    <div className="bg-white pt-4 sm:pt-5">
+    <div className="bg-white pt-16 md:pt-20">
       {/* Header */}
-      <div className="relative h-[70vh] flex flex-col items-center justify-center text-center px-4">
-        <div className="fade-in relative z-10">
-          <h1 className="section-title mb-4">Nossos Autores</h1>
-          <p className="section-subtitle">
+      <div className="relative min-h-[50vh] md:min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
+        <div className="fade-in relative z-10 max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1d1d1f] mb-4">
+            Nossos Autores
+          </h1>
+          <p className="text-lg md:text-xl text-[#86868b] max-w-2xl mx-auto">
             Conheça os talentos que fazem parte da nossa família editorial
           </p>
         </div>
@@ -97,35 +99,36 @@ const Authors = () => {
           <img
             src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
             alt="Books"
-            className="w-full h-[40vh] object-cover object-center"
+            className="w-full h-[30vh] md:h-[40vh] object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-white via-white/50 to-transparent"></div>
         </div>
       </div>
 
       {/* Authors Grid */}
-      <div className="max-w-[980px] mx-auto px-4 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-[980px] mx-auto px-4 py-12 md:py-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {authors.map((author) => (
             <Link
               key={author.id}
               to={`/autores/${author.id}`}
-              className="group bg-[#f5f5f7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              className="group bg-[#f5f5f7] rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300"
             >
-              <div className="relative pt-[100%]">
+              <div className="relative pb-[100%] overflow-hidden">
                 <img
-                  src={author.photo || 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d'}
+                  src={author.photo || 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'}
                   alt={author.name}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#1d1d1f] mb-3 group-hover:text-[#0071e3] transition-colors">
+              <div className="p-6 md:p-8">
+                <h3 className="text-lg md:text-xl font-semibold text-[#1d1d1f] mb-3 group-hover:text-[#0071e3] transition-colors line-clamp-2">
                   {author.name}
                 </h3>
-                <div className="flex items-center space-x-2">
-                  <span className="text-[#1d1d1f] font-medium">Livros publicados:</span>
-                  <span className="text-[#86868b]">{author.books}</span>
+                <div className="space-y-2">
+                  <p className="text-[#86868b] text-sm md:text-base">
+                    <span className="text-[#1d1d1f] font-medium">Livros publicados:</span> {author.books}
+                  </p>
                 </div>
               </div>
             </Link>
