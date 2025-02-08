@@ -41,7 +41,7 @@ const authorData = {
   },
   5: {
     name: 'Bruno Rodrigues',
-    photo: '/authors/Bruno/Bruno.jpg',
+    photo: '/authors/Bruno/bruno.jpg',
     bio: 'Estudante de Direito pela USCS, acumula um pequeno, porém já importante material literário (fruto de alguns anos de desenvolvimento). Em agosto de 2017, Bruno começou os estudos da Doutrina Espírita na FEESP. O seu amor pela literatura começou aos 11 anos quando, pela primeira vez, leu o livro "Harry Potter e a Pedra Filosofal", o primeiro dos 7 volumes da saga do "Menino que Sobreviveu", escrita pela britânica J.K. Rowling. O mundo mágico de Rowling abriu-lhe as portas para a leitura, e desde então, mesmo depois de tanto tempo, é um apaixonado pelas histórias de Hogwarts. Neste universo, ele encontrou amigos, um lar... O seu primeiro livro, "Vida em Poesia" já está em fase de finalização e será lançado, no mais tardar, em 2018. Uma versão em e-book já está sendo vendida no site da Livraria Saraiva.',
     books: [
       { title: 'Revoada de sonhos IV', cover: '/authors/Bruno/revoada-IV_g.jpg' },
@@ -58,7 +58,7 @@ const authorData = {
   },
   7: {
     name: 'Clauni Barbosa',
-    photo: '/authors/Clauni/Clauni.jpg',
+    photo: '/authors/Clauni/clauni.jpg',
     bio: 'Professora, apaixonada pela profissão e por seus alunos, é voluntária na ONG "Fraternidade Sem Fronteiras". Sua essência são a fé em Deus, a paixão por crianças e pela vida, e o desafio diário da prática do evangelho através do amor ao próximo como a si mesma. Sempre teve muitos sonhos, e um dia os listou e colocou na porta do guarda-roupa; conforme vai realizando, vai grifando os mesmos. Entre Borboletas e Girassóis é um grifo carregado de muita felicidade.',
     books: [
       { title: 'Entre Borboletas e Girassóis', cover: '/authors/Clauni/entre-borboletas_resized.jpg' },
@@ -82,7 +82,7 @@ const authorData = {
   },
   10: {
     name: 'Dilo Guasque',
-    photo: '/authors/Dilo p/Dilo_p.jpg',
+    photo: '/authors/Dilo p/dilo_p.jpg',
     bio: 'Dilo Mestrinho Guasque nasceu em Manaus – AM, no dia 8 de janeiro de 1932. Antes de completar 1 ano de idade, sua família mudou-se para o Rio de Janeiro,onde Dilo se formou em Administração de Empresas, constituiu família e viveu até se aposentar, em 1984. A partir de então, passou a morar na Ilha da Gipóia, em Angra dos Reis – RJ. Atualmente, vive no Rio de Janeiro. Formado também em Belas Artes, é escritor e artista plástico bastante premiado nas duas modalidades artísticas. É membro do Ateneu Angrense de Letras e Artes. Tem vários livros publicados.',
     books: [
       { title: 'De algumas coisas, um pouco', cover: '/authors/Dilo p/de-algumas-coisas-g.jpg' },
@@ -266,7 +266,7 @@ const authorData = {
   },
   29: {
     name: 'João Mainsel',
-    photo: '/authors/joaomainsel/joao-mainsel_p.jpg',
+    photo: '/authors/Joaomainsel/joao-mainsel_p.jpg',
     bio: 'É casado e tem dois filhos. Nasceu em 1976, em Malange-Angola, e cresceu no Huambo, onde passou os primeiros dezesseis anos de sua vida. Licenciou-se em Ciências Sociais, na especialidade de Ciência Política e Administrativa, pela Universidade Aberta de Lisboa; pós-graduou-se em Administração com ênfase em Gestão pela Fundação Getúlio Vargas no Brasil; e fez o seu Mestrado e Doutorado em Administração de Empresas pela Florida Christian University, nos Estados Unidos da América. Nos últimos quinze anos, tem atuado como empresário e empreendedor e dedica-se à pesquisa aplicada, atividade que tem conciliado com o ramo empresarial.',
     books: [
       { title: 'A Travessia', cover: '/authors/Joaomainsel/a-travessia-g.jpg' },
@@ -390,7 +390,7 @@ const authorData = {
   },
   43: {
     name: 'Luiza Grigini Martins',
-    photo: '/authors/Luiza/luiza_p.jpg',
+    photo: '/authors/Luiza/Luiza_p.jpg',
     bio: 'Nasceu no interior do Paraná e aos quinze anos de idade mudou-se para São Paulo. Descobriu a mediunidade quando criança e desde então lida com conselhos e revelações de seus mentores espirituais, que expressam pensamentos e mensagens por meios telepáticos e pela psicografia. É a Yalorixá do Núcleo Espiritual "Tenda Espiritualista de Umbanda Arcanjos Miguel, Gabriel e Rafael", onde conta com centenas de médiuns e seguidores. A psicografia entrou em sua vida como um desafio. A primeira obra, "Senzala do Espaço", pelo Espírito Antonio Benedito, começou a surgir em 2002.',
     books: [
       { title: 'Rosario dos sete misterios', cover: '/authors/Luiza/rosario-dos-sete-misterios_g.jpg' },
@@ -441,7 +441,7 @@ const authorData = {
   },
   49: {
     name: 'Maria José M Dias',
-    photo: '/authors/Mariajose/maria_jose.jpg',
+    photo: '/authors/MariaJose/maria_jose.jpg',
     bio: 'Angrense, professora aposentada, morou em Petrópolis e estudou na Universidade Católica de Petrópolis – PUC. Desenvolveu o gosto pela poesia desde a época da infância. Formada em Pedagogia, Filosofia, Psicologia, Didática e Educação Artística. Pós-graduada pela UFRJ e UFF em Psicopedagogia, Planejamento e Técnicas de Ensino. É artista plástica, poetisa e trovadora. Membro do Ateneu Angrense de Letras e Artes e da União Brasileira de Trovadores de Angra dos Reis. Possui várias premiações em concursos de pintura, poesia e trovas.',
     books: [
       { title: 'Sementes poéticas', cover: '/authors/MariaJose/sementes_g.jpg' },
@@ -585,7 +585,7 @@ const authorData = {
   },
   66: {
     name: 'Sá de Carvalho',
-    photo: '/authors/sadecarvalho/sa-de-carvalho_p.jpg',
+    photo: '/authors/adecarvalho/sa-de-carvalho_p.jpg',
     bio: 'Nascida em Lavras (MG), chegou a Angra dos Reis (RJ), em 1947. Ali cresceu, estudou, formou-se, constituiu família: marido, filhos, filha, netos, netas, bisnetos, bisnetas, genro e noras. Católica e cidadã angrense de coração, dedicou-se, lá pelos anos 80, a colaborar na organização da sociedade e servir à Igreja. A autora ainda se dedica à arte da pintura e do artesanato, além de gostar muito de fotografia. Participa de exposições, dando sua colaboração com seus quadros e fotografias. Com o texto As Mudanças Dentro dos Tempos de Mudanças, a autora foi selecionada para integrar a coletânea Histórias e Imagens de Angra dos Reis (1ª edição – 2012); projeto que reúne escritores residentes em Angra dos Reis e que é promovido pela empresa Ampla, com apoio da Câmara Municipal, em parceria com a Prefeitura e patrocínio do Governo do Estado do Rio de Janeiro. É membro do Ateneu Angrense de Letras e Artes (AALA) e da União Brasileira de Trovadores – Delegacia de Angra dos Reis (UBT-AR).',
     books: [
       { title: 'Revoada de Sonhos I', cover: '/authors/Sadecarvalho/coletanea-revoada-g.png' },
