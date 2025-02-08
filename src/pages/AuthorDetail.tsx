@@ -15,8 +15,8 @@ const authorData = {
     photo: '/authors/Anamaris/anamaris.jpg',
     bio: 'Poetisa, escritora e historiadora, Ana Maris de Figueiredo Ribeiro nasceu em São Paulo, mas pode ser considerada natural de Angra dos Reis, pois se tornou angrense logo após o nascimento. É formada em Letras, Turismo e Patrimônio Histórico, possuindo também formação como Professora de Primeiro Segmento, Técnica em Contabilidade e cursos de Pós Graduação em Psicopedagogia e História do Brasil. Exerce atualmente a função de Coordenadora de Patrimônio, Turismo e Memória na Secretaria Municipal de Educação de Angra dos Reis. Foi colaboradora por mais de 50 edições da coluna de Cultura e História do jornal Novo Rumo, da Costa Verde; e escreveu também para o Contato Art On Line. É membro, entre outras instituições, da Associação Brasil Soka Gakkai Internacional e do Ateneu Angrense de Letras e Artes. Possui várias publicações e diversas premiações e distinções honoríficas em reconhecimento à sua relevante atuação em diversos segmentos históricos e culturais.',
     books: [
-      { title: 'Revoada de Sonhos I', cover: '/authors/Anamaris/revoada-vol-i-g.jpg' },
-      { title: 'Revoada de Sonhos II', cover: '/authors/Anamaris/revoada-vol-ii-g.jpg' },
+      { title: 'Revoada de Sonhos I', cover: '/authors/Anamaris/revoada-vol-I-g.jpg' },
+      { title: 'Revoada de Sonhos II', cover: '/authors/Anamaris/revoada-vol-II-g.jpg' },
       { title: 'Revoada de Sonhos III', cover: '/authors/Anamaris/revoada-de-sonhos3-g.jpg' },
       { title: 'Revoada de Sonhos IV', cover: '/authors/Anamaris/revoada-IV_g.jpg' },
     ],
@@ -26,8 +26,8 @@ const authorData = {
     photo: '/authors/Ary/aryabrantes.jpg',
     bio: 'Ary Abrantes Gomes é natural de Teixeiras/MG. Mudou-se para São Paulo no mês de agosto de 1961. Aposentado, dedica-se ao trabalho voluntário em atividades espirituais na Federação Espírita do Estado de São Paulo (FEESP) e no Centro Espírita Discípulos de Jesus – Bela Vista; além de participar nas atividades da área Editorial na Aliança Distribuidora e Editora de Livros Espíritas; instituições localizadas na região central da Capital paulista. Tem contribuído com o Ateneu Angrense de Letras e Artes, como integrante da Comissão Julgadora de alguns concursos literários. Ary tem na escrita uma atividade lúdica, onde exercita sua inspiração desenvolvendo textos em prosa e versos e que muitas vezes são utilizados em preleções de cunho religioso e maçônico.',
     books: [
-      { title: 'Revoada de Sonhos I', cover: '/authors/Ary/revoada-vol-i-g (1).jpg' },
-      { title: 'Revoada de Sonhos II', cover: '/authors/Ary/revoada-vol-ii-g (1).jpg' },
+      { title: 'Revoada de Sonhos I', cover: '/authors/Ary/revoada-vol-I-g (1).jpg' },
+      { title: 'Revoada de Sonhos II', cover: '/authors/Ary/revoada-vol-II-g (1).jpg' },
       { title: 'Pausa para meditação', cover: '/authors/Ary/pausa-para-med_resized.jpg' },
     ],
   },
@@ -131,8 +131,8 @@ const authorData = {
     photo: '/authors/Eli/eli.jpg',
     bio: 'Elizette – ou Eli Gonçalves – é pedagoga, tendo atuado na área de Educação durante trinta anos. Ao se aposentar, dedicou-se à tecelagem, às artes plásticas e à literatura. Participou de mostras individuais e coletivas, com tapetes e quadros seus. É também reikiana e praticante de Yoga, tendo participado do Curso de Capacitação, durante dois anos – na FMU e na USP, com o professor Marcos Rojo, o que lhe confere o direito de lecionar a Yoga. Publicou dois livros de Literatura Infantil "Quem disse que Papai Noel não existe?" e "O papagaio e a sereiazinha" e dois livros de poesias: "Tramas poéticas" e "Explosão de emoções". Participou de várias antologias e é membro da UBT (União Brasileira de Trovadores). Tem uma força interior tal, que, por certo, não há de parar por aí! Tem ainda uma vida prolífica pela frente!',
     books: [
-      { title: 'Revoada de Sonhos I', cover: '/authors/Eli/revoada-vol-i-g.jpg' },
-      { title: 'Revoada de Sonhos II', cover: '/authors/Eli/revoada-vol-ii-g.jpg' },
+      { title: 'Revoada de Sonhos I', cover: '/authors/Eli/revoada-vol-I-g.jpg' },
+      { title: 'Revoada de Sonhos II', cover: '/authors/Eli/revoada-vol-II-g.jpg' },
       { title: 'Revoada de Sonhos III', cover: '/authors/Eli/revoada-de-sonhos3-g.jpg' },
       { title: 'O Papagaio e a Sereiazinha', cover: '/authors/Eli/livro-papagaio-g.png' },
     ],
