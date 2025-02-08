@@ -42,11 +42,6 @@ const Contact = () => {
                   <h3 className="text-lg font-medium text-[#1d1d1f] mb-2">Telefone/WhatsApp</h3>
                   <p className="text-[#86868b]">(11) 97121-7605</p>
                 </div>
-                <div className="flex flex-col items-center">
-                  <MessageSquare className="h-8 w-8 text-[#0071e3] mb-4" />
-                  <h3 className="text-lg font-medium text-[#1d1d1f] mb-2">Horário de Atendimento</h3>
-                  <p className="text-[#86868b]">Segunda a Sexta: 9h às 18h</p>
-                </div>
               </div>
 
               {/* WhatsApp Button */}

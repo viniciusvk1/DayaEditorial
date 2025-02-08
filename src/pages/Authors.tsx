@@ -89,7 +89,7 @@ const Authors = () => {
       <div className="relative min-h-[50vh] md:min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
         <div className="fade-in relative z-10 max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1d1d1f] mb-4">
-            Nossos Autores
+            Nossos autores e suas obras
           </h1>
           <p className="text-lg md:text-xl text-[#86868b] max-w-2xl mx-auto">
             Conheça os talentos que fazem parte da nossa família editorial

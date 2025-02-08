@@ -60,7 +60,7 @@ const About = () => {
           <div className="mb-20 text-center fade-in">
             <h2 className="text-3xl font-semibold text-[#1d1d1f] mb-6">Nossa missão</h2>
             <p className="text-[#86868b] leading-relaxed max-w-3xl mx-auto">
-              Nossa missão é ajudar escritores a publicarem os seus livros. Oferecemos, além de um 
+              Nossa missão é ajudar escritores a publicarem seus livros. Oferecemos, além de um 
               trabalho sério e altamente profissional, a dedicação afetiva de quem ama o que faz. 
               Qualquer que seja a sua necessidade, conte com a Daya Editorial, com a certeza de que 
               o seu sonho está em boas mãos!

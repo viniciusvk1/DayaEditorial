@@ -83,10 +83,6 @@ const Footer = () => {
                     <span>(11) 97121-7605</span>
                   </a>
                 </li>
-                <li className="flex items-start text-sm text-[#86868b]">
-                  <Clock className="h-5 w-5 mr-3 flex-shrink-0" />
-                  <span>Segunda a Sexta<br />9h às 18h</span>
-                </li>
               </ul>
             </div>
           </div>
