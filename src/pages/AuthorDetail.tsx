@@ -377,7 +377,7 @@ const authorData = {
     photo: '/src/assets/authors/Luana/Luana.jpg',
     bio: 'Autora de várias obras, nasceu em São Paulo. É psicopedagoga, terapeuta floral, artesã com símbolos ciganos em sua descendência familiar e espírita há mais de 30 anos. Atual Presidente do Centro Espírita Kardecista Barracão de Luz e Cura, atua mediunicamente em psicofonia e psicografia nos atendimentos da instituição espírita.',
     books: [
-      { title: 'Barracão de luz', cover: '/src/assets/authors/Luana/barracão_g.jpg' },
+      { title: 'Barracão de luz', cover: '/src/assets/authors/Luana/barracao_g.jpg' },
     ],
   },
   42: {
