@@ -15,18 +15,13 @@ export default defineConfig({
     })
   ],
   server: {
-    configureServer(server) {
-      server.middlewares.use((req, res, next) => {
-        if (req.url && !req.url.startsWith('/@') && !req.url.startsWith('/assets') && !req.url.includes('.')) {
-          req.url = '/index.html';
-        }
-        next();
-      });
-    }
+    host: true,
+    port: 3000,
+    open: true,
   },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
   },
-  base: './',
+  base: '/', // Garante que os assets são servidos corretamente no CPanel
 });
