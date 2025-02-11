@@ -604,7 +604,7 @@ const authorData = {
     name: 'Vinícius Gouvêa de Carvalho',
     photo: '/authors/Viniciuscarvalho/Vinicius.jpg',
     books: [
-      { title: 'Poesia, porque não posso te dar beijinho', cover: '/authors/Vinicius/poesia-porque-g.jpg' },
+      { title: 'Poesia, porque não posso te dar beijinho', cover: '/authors/Viniciuscarvalho/poesia-porque_g.jpg' },
     ],
   },
   76: {
