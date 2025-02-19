@@ -27,7 +27,7 @@ const authorData = {
       { title: 'Revoada de Sonhos I', cover: '/authors/Ary/revoada-vol-I-g (1).jpg' },
       { title: 'Revoada de Sonhos II', cover: '/authors/Ary/revoada-vol-II-g (1).jpg' },
       { title: 'Pausa para meditação', cover: '/authors/Ary/pausa-para-med_resized.jpg' },
-      { title: 'Pausa para meditação', cover: '/authors/Ary/Minhas memórias.jpg' }
+      { title: 'Pausa para meditação', cover: '/authors/Ary/Minhas memorias.jpg' }
     ],
   },
   4: {
@@ -56,7 +56,7 @@ const authorData = {
     name: 'Cibele Bernardo',
     photo: '/authors/CibeleBernardo/Foto Cibele.jpg',
     books: [
-      { title: 'As multiplas faces do amor', cover: '/authors/CibeleBernardo/As múltiplas faces do amor e do ódio.jpg' },
+      { title: 'As multiplas faces do amor', cover: '/authors/CibeleBernardo/As multiplas faces do amor e do odio.jpg' },
     ],
   },
   7: {
@@ -255,6 +255,7 @@ const authorData = {
     photo: '/authors/JesualdoCosta/Foto Jesualdo.jpg',
     books: [
       { title: 'Deus, espírito universal supremo', cover: '/authors/JesualdoCosta/Deus, espirito universal supremo.jpg' },
+      { title: 'Conversando sobre a vida', cover: '/authors/JesualdoCosta/Conversando sobre a vida.jpg' },
     ],
   },
   28: {
@@ -337,7 +338,7 @@ const authorData = {
       { title: 'Jesus: messias ou Deus?', cover: '/authors/LaurianoSantos/jesus-messias_g.jpg' },
       { title: 'Por quê?', cover: '/authors/LaurianoSantos/por que_g.jpg' },
       { title: 'Indagações oportunas', cover: '/authors/LaurianoSantos/indagacoes-oportunas_g.jpg' },
-      { title: 'Vivência Espírita', cover: '/authors/LaurianoSantos/vivencia espirita.jpg' },
+      { title: 'Vivência Espírita', cover: '/authors/LaurianoSantos/Vivencia espirita.jpg' },
     ],
   },
   38: {
@@ -424,7 +425,7 @@ const authorData = {
     name: 'Maria Elisabete Perez Simoni',
     photo: '/authors/MariaElisabete/Maria Elisabete Perez Simoni.jpg',
     books: [
-      { title: 'Aluanã', cover: '/authors/MariaElisabete/Aluana.png' },
+      { title: 'Aluanã', cover: '/authors/MariaElisabete/Aluana.jpg' },
     ],
   },
   48: {

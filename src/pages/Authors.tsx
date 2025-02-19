@@ -45,7 +45,7 @@ export const authors = [
   { id: 38, name: 'Lélia Miguel M de Lima', photo: '/authors/Lelia/lelia.jpg', genre: '', books: 1 },
   { id: 39, name: 'Lina Calil', photo: '/authors/Linacalil/lina-calil_p.jpg', genre: '', books: 2 },
   { id: 40, name: 'Lívia Fiedler', photo: '/authors/LiviaFieldler/livia-fiedler_p.jpg', genre: '', books: 2 },
-  { id: 41, name: 'Luana S. de A. Esposito', photo: '/authors/Luana/Luana.jpg', genre: '', books: 1 },
+  { id: 41, name: 'Luana S. de A. Esposito', photo: '/authors/Luana/Luana.jpg', genre: '', books: 2 },
   { id: 42, name: 'Luiz Sass', photo: '/authors/Luizsass/luiz-sass_p.jpg', genre: '', books: 1 },
   { id: 43, name: 'Luiza Grigini Martins', photo: '/authors/Luiza/Luiza_p.jpg', genre: '', books: 1 },
   { id: 44, name: 'Luiza Viegas Rathsam', photo: '/authors/sem_foto.jpg', genre: '', books: 1 },
