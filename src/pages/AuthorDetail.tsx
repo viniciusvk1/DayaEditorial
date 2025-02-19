@@ -618,7 +618,7 @@ const authorData = {
     ],
   },
   70: {
-    name: 'Sibeles Maria De Mais',
+    name: 'Sibeles Maria De Masi',
     photo: '/authors/Sibeles/Sibeles_p.jpg',
     books: [
       { title: 'Zuvi entre os ciganos', cover: '/authors/Sibeles/zuvi_g.jpg' },
