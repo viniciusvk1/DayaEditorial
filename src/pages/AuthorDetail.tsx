@@ -27,6 +27,7 @@ const authorData = {
       { title: 'Revoada de Sonhos I', cover: '/authors/Ary/revoada-vol-I-g (1).jpg' },
       { title: 'Revoada de Sonhos II', cover: '/authors/Ary/revoada-vol-II-g (1).jpg' },
       { title: 'Pausa para meditação', cover: '/authors/Ary/pausa-para-med_resized.jpg' },
+      { title: 'Pausa para meditação', cover: '/authors/Ary/Minhas memórias.jpg' }
     ],
   },
   4: {
@@ -51,11 +52,19 @@ const authorData = {
       { title: 'Sempre é tempo de amar', cover: '/authors/Caetano/sempre e tempo-g.jpg' },
     ],
   },
+  79: {
+    name: 'Cibele Bernardo',
+    photo: '/authors/CibeleBernardo/Foto Cibele.jpg',
+    books: [
+      { title: 'As multiplas faces do amor', cover: '/authors/CibeleBernardo/As múltiplas faces do amor e do ódio.jpg' },
+    ],
+  },
   7: {
     name: 'Clauni Barbosa',
     photo: '/authors/Clauni/clauni.jpg',
     books: [
       { title: 'Entre Borboletas e Girassóis', cover: '/authors/Clauni/entre-borboletas_resized.jpg' },
+      { title: 'Esse é meu jeito', cover: '/authors/Clauni/Esse e meu jeito.jpg' },
     ],
   },
   8: {
@@ -87,6 +96,7 @@ const authorData = {
     photo: '/authors/Dirce/dirce_pinho_p.jpg',
     books: [
       { title: 'Gotas de Luz', cover: '/authors/Dirce/gotas-g.jpg' },
+      { title: 'Pouso para o repouso.jpg', cover: '/authors/Dirce/Pouso para o repouso.jpg' },
     ],
   },
   12: {
@@ -97,6 +107,7 @@ const authorData = {
       { title: 'Amor e caridade', cover: '/authors/Edmur/amor e caridade_g.jpg' },
       { title: 'Escolhas e consequências', cover: '/authors/Edmur/escolhas-e-consequencias_g.jpg' },
       { title: 'Mãos que semeiam luz', cover: '/authors/Edmur/maos-luz_g.jpg' },
+      { title: 'Caminhos de amor e luz', cover: '/authors/Edmur/Caminhos de amor e luz.jpg' },
     ],
   },
   13: {
@@ -129,6 +140,7 @@ const authorData = {
     books: [
       { title: 'O jogo da vida!', cover: '/authors/Eliseu/jogo-da-vida_g.jpg' },
       { title: 'Santo e José Labegalini', cover: '/authors/Eliseu/santo-e-jose_g.jpg' },
+      { title: 'Santo e José Labegalini', cover: '/authors/Eliseu/chico.jpg' },
     ],
   },
   17: {
@@ -172,6 +184,7 @@ const authorData = {
     photo: '/authors/Erico/erico.jpg',
     books: [
       { title: 'Sementes poéticas', cover: '/authors/Erico/sementes_g.jpg' },
+      { title: 'Sementes poéticas', cover: '/authors/Erico/Santa Casa de Angra dos Reis.jpg' },
     ],
   },
   20: {
@@ -202,6 +215,13 @@ const authorData = {
       { title: 'Convite para colorir', cover: '/authors/FAtima/convite-para-colorir_g.jpg' },
     ],
   },
+  80: {
+    name: 'Fernando Fabião',
+    photo: '/authors/FernandoFabiao/Foto Fernando Fabiao.jpg',
+    books: [
+      { title: 'Gotas de Regeneração', cover: '/authors/FernandoFabiao/gotas de reg.jpg' },
+    ],
+  },
   24: {
     name: 'Francisca Gomes',
     photo: '/authors/Francisca/francisca.jpg',
@@ -228,6 +248,13 @@ const authorData = {
     photo: '/authors/Jesse/Jesse.jpg',
     books: [
       { title: 'Sementes poéticas', cover: '/authors/Jesse/sementes_g.jpg' },
+    ],
+  },
+  81: {
+    name: 'Jesualdo Costa',
+    photo: '/authors/JesualdoCosta/Foto Jesualdo.jpg',
+    books: [
+      { title: 'Deus, espírito universal supremo', cover: '/authors/JesualdoCosta/Deus, espirito universal supremo.jpg' },
     ],
   },
   28: {
@@ -287,6 +314,7 @@ const authorData = {
     photo: '/authors/Katia/katia.jpg',
     books: [
       { title: 'Vozes do céu', cover: '/authors/Katia/vozes-do-ceu_resized.jpg' },
+      { title: 'Histórias Infantis', cover: '/authors/Katia/historias inf.jpg' },
     ],
   },
   36: {
@@ -309,6 +337,7 @@ const authorData = {
       { title: 'Jesus: messias ou Deus?', cover: '/authors/LaurianoSantos/jesus-messias_g.jpg' },
       { title: 'Por quê?', cover: '/authors/LaurianoSantos/por que_g.jpg' },
       { title: 'Indagações oportunas', cover: '/authors/LaurianoSantos/indagacoes-oportunas_g.jpg' },
+      { title: 'Vivência Espírita', cover: '/authors/LaurianoSantos/vivencia espirita.jpg' },
     ],
   },
   38: {
@@ -338,6 +367,7 @@ const authorData = {
     photo: '/authors/Luana/Luana.jpg',
     books: [
       { title: 'Barracão de luz', cover: '/authors/Luana/barracao_g.jpg' },
+      { title: 'Historias e poesias dos espiritos', cover: '/authors/Luana/Historias e poesias dos espiritos.jpg' },
     ],
   },
   42: {
@@ -383,6 +413,20 @@ const authorData = {
       { title: 'Revoada de Sonhos III', cover: '/authors/Mariaantonia/revoada-de-sonhos3-g.jpg' },
     ],
   },
+  82: {
+    name: 'Maria Eduarda',
+    photo: '/authors/MariaEduarda/Foto Maria Eduarda.jpg',
+    books: [
+      { title: 'Revoada de Sonhos I', cover: '/authors/MariaEduarda/branquinho.jpg' },
+    ],
+  },
+  83: {
+    name: 'Maria Elisabete Perez Simoni',
+    photo: '/authors/MariaElisabete/Maria Elisabete Perez Simoni.jpg',
+    books: [
+      { title: 'Aluanã', cover: '/authors/MariaElisabete/Aluana.png' },
+    ],
+  },
   48: {
     name: 'Maria Helena U C da Fonseca',
     photo: '/authors/Mariahelena/maria-helena_p.jpg',
@@ -418,6 +462,15 @@ const authorData = {
     photo: '/authors/Marzio/marzio.jpg',
     books: [
       { title: 'Pra poucos olhos...', cover: '/authors/Marzio/pra_poucos_olhos_g.jpg' },
+      { title: 'Curtaceos', cover: '/authors/Marzio/curtaceos.jpg' },
+      { title: 'Obsclarecências', cover: '/authors/Marzio/obsclarecencia.jpg' },
+    ],
+  },
+  84: {
+    name: 'Mauricélia',
+    photo: '/authors/Mauricelia/Foto Mauricelia.jpeg',
+    books: [
+      { title: 'Palavras e sentimentos', cover: '/authors/Mauricelia/Palavras e sentimentos.jpg' },
     ],
   },
   53: {
@@ -503,6 +556,15 @@ const authorData = {
       { title: 'Cronicâncias', cover: '/authors/Romildo/cronicancias_resized.jpg' },
     ],
   },
+  85: {
+    name: 'Ronel Barbosa',
+    photo: '/authors/RonelBarbosa/Foto Ronel.jpg',
+    books: [
+      { title: 'Palavras que edificam o coração', cover: '/authors/RonelBarbosa/Palavras que edificam o coracao.jpg' },
+      { title: 'Transformados pelos desafios', cover: '/authors/RonelBarbosa/Transformados pelos desafios.jpg' },
+      { title: 'Um novo olhar', cover: '/authors/RonelBarbosa/Um novo olhar.jpg' },
+    ],
+  },
   64: {
     name: 'Rosangela Bonizolli',
     photo: '/authors/Rosangela/Rosangela_p.jpg',
@@ -528,6 +590,8 @@ const authorData = {
       { title: 'Chronos', cover: '/authors/Sadecarvalho/chronos-g.jpg' },
       { title: 'Mosaico', cover: '/authors/Sadecarvalho/mosaico-g.jpg' },
       { title: 'Sementes poéticas', cover: '/authors/Sadecarvalho/sementes_g.jpg' },
+      { title: 'Branquinho', cover: '/authors/Sadecarvalho/branquinho.jpg' },
+      { title: 'A fonte da água mágica', cover: '/authors/Sadecarvalho/fonte.jpg' },
     ],
   },
   67: {
@@ -591,6 +655,16 @@ const authorData = {
       { title: 'Pedacinhos do céu', cover: '/authors/Valderez/pedacinhos-do-ceu_g.jpg' },
       { title: 'As borboletinhas do espaço', cover: '/authors/Valderez/borboletinhas-do-espaco_g.jpg' },
       { title: 'Crônicas da madrugada', cover: '/authors/Valderez/cronicas-madrugada.jpg' },
+      { title: 'Crepúsculo', cover: '/authors/Valderez/crepusculo.jpg' },
+    ],
+  },
+  86: {
+    name: 'Valter Farid',
+    photo: '/authors/ValterFarid/Foto Valter.jpg',
+    books: [
+      { title: 'A Consulta', cover: '/authors/ValterFarid/A consulta.jpg' },
+      { title: 'Orgulho', cover: '/authors/ValterFarid/dody.jpg' },
+      { title: 'Um menino a procura de sua Alma', cover: '/authors/ValterFarid/Um menino a procura de sua Alma.jpg' },
     ],
   },
   74: {
